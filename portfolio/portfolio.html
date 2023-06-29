@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewpoint" content="width=device-width", initial-scale="1.0">
+    <title>Rityuj-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:rgb(0, 0,33) ;
+            color: white;
+            font-family: 'poppins',sans-serif;    
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 3px;
+        }
+        nav ul li a{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a:hover{
+            color: rgb(221, 231, 231);
+            font-size: 1.05rem;
+        }
+        main hr{
+            border: 0;
+            background: white;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size:2rem;
+        }
+         
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 5px;
+        }
+        .firstsection> div{
+            width: 30%;
+            margin: 70px;
+            align-items: center ;
+        }
+        .leftsection{
+            width: 34px;
+            font-size: 1.9rem;
+        } 
+        .leftsection .buttons{
+            padding: 10px;
+        }
+        .leftsection .btn{
+            padding: 10px;
+            background: #1e2167;
+            color: white;
+            border: 3px solid white;
+            border-radius: 31px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .leftsection .btn a{
+            color: white;
+            text-decoration: none;
+        }
+        .rightsection img{
+            width: 141%;
+            margin: 7px -177px;
+            padding: -35px;
+        }
+        .purple{
+            color: rgb(90, 53, 127);
+        }
+        .text-grey{
+            color: chartreuse;
+        }
+        #element{
+            color: rgb(129, 56, 140);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1{
+            font-size: 1.9rem;
+            padding: auto;
+            height: 74px;
+        }
+        .secondsection .box{
+            background: cornflowerblue;
+            width: 80vw;
+            height: 2px;
+            height: 56px 0;
+            display: flex;
+            padding: -1px;
+        }
+        .secondsection .vertical{
+            height: 142px;
+            width: 2px;
+            background-color: rgb(255, 255, 255);
+            margin: 0 140px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+        }
+        .vertical-title{
+            position: relative;
+            top: -28px;
+            width: 190px;
+            font-size: 16px;
+            padding: 6px;
+        }
+        .vertical-desk{
+            position: relative;
+            top: -32px;
+            color: grey;
+            width: 145px;
+            font-size: 12px;
+            padding: 6px;
+        }
+        .thirdsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .thirdsection h1{
+            max-width: 80vw;
+            margin: auto;
+            height: 8vh;
+            text-decoration: underline;
+        }
+        .thirdsection p{
+            max-width: 80vw;
+            margin: auto;
+        }
+        .thirdsection img{
+            width: 45%;
+            margin: 38px -1px;
+            padding: -35px;
+        }
+        footer{
+            background-color: rebeccapurple;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px; 
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style-type: style circle;
+        }
+        .footer ul li a{
+            color: black;
+            text-decoration: underline;
+        }
+        .footer >div{
+            width: 251px;;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: darkgrey;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Rityuj's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#none">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#Contactme">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,my name is <span class="purple">Rityuj singh</span>
+                <div>and I am a web-developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">
+                        <a href="https://github.com/" target="_blank">Github</a>
+                    </button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="WebD.png" alt="">
+            </div>
+        </section>
+<hr>
+        <section class="secondsection">
+            <span class="grey" id="About">About Me!!</span>
+            <h1>Education & Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="R.png" alt="">
+                    <div class="vertical-title">
+                        B.Tech Student
+                    </div>
+                    <div class="vertical-desk">
+                        Right Now I am pursuing B.Tech from Kiet Group of instion Ghazibad in EN branch i:e Electrical and electronics.
+                    </div>
+                </div>     
+                <div class="vertical">
+                    <img class="image-top" src="R.png" alt="">
+                    <div class="vertical-title">
+                        Intercollege(2018-2019)
+                    </div>
+                    <div class="vertical-desk">
+                        I have an aggregate percentage of 80% in 12th,I have completed my schooling from Air force School Agra.
+                    </div>
+                </div> 
+                <div class="vertical">
+                    <img class="image-top" src="R.png" alt="">
+                    <div class="vertical-title">
+                        High-School(2017-2017)
+                    </div>
+                    <div class="vertical-desk">
+                        I have an aggregate percentage of 85% in High school,from Air force School Agra.
+                    </div>
+                </div> 
+                <div class="vertical">
+                    <img class="image-top" src="R.png" alt="">
+                    <div class="vertical-title">
+                        Skills-I-Own
+                    </div>
+                    <div class="vertical-desk">
+                        Recently I have discovered my Intrest in Web development and I have a basic prior knowledge in Python language.
+                    </div>
+                </div>
+                          
+            </div>
+        </section>
+<hr>
+        <section class="thirdsection">
+        <span class="darkgrey" id="project">Project</span>
+        <h1>and Certificate!</h1>
+        <p>My name is Rityuj singh I am a student at Kiet group of Instition right now I am pirsuing B.Tech course in electrical and electronic branch</p>
+        <img class="image-top" src="Crt.jpeg" alt="">
+        <img class="image-top" src="MLcrt.jpeg" alt="">
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3 id="Contactme">Rityuj's Porfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Github</li>  
+                    <li><a href="https://github.com/" target="_blank">Visit my Github</a></li>  
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>
+                        LinkedIn Account
+                        <li><a href="https://www.linkedin.com/" target="_blank">My profile</a></li>
+                    </li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>
+                        Social Handles
+                        <li>Instagram-<a href="https://www.instagram.com/" target="_blank">Silverfox_04</a></li>
+                        <li>Facebook-<a href="https://www.facebook.com/" target="_blank">rityujsingh</a></li>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            rityuj.2125en1063@kiet.edu
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Artist','Web Designer','Tennis Player','Student'],
+          typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
+
